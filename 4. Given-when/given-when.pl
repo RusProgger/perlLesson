@@ -1,6 +1,6 @@
 use strict;
 use warnings;
-use feature "switch";
+use feature "switch"; # нужно подключать в более поздних версиях.
 
 
 my $count = 1010;
