@@ -1,6 +1,6 @@
 use strict;
 use warnings;
-use boolean;
+use boolean; # для boolean
 
 use feature "say"; # для say работает с версии 5.10 и выше
 
