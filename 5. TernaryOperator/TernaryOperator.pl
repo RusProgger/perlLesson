@@ -9,6 +9,6 @@ my $b = 100;
 my $test = "Hello";
 my $cmp = "Denis";
 
-my $res = ($test eq $cmp) ? print($test) : print($cmp);
+my $res = ($test eq $cmp) ? $test : $cmp;
 
 print "\nInput = ", $res;
