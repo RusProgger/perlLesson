@@ -35,6 +35,8 @@ my $name = "Alex";
 my $count_name = 0;
 
 while($count_name < 10) {
-    print $name. " - " . $count_name . "\n";
+    if($count_name > 5 and $count_name < 10) {
+        print $name. " - " . $count_name . "\n";
+    }
     $count_name++;
 }
