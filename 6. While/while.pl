@@ -27,3 +27,14 @@ while($x <= 10) {
    $x++;
 }
 
+printf("\n******************************************\n");
+
+# Вывод имени по циклу 
+
+my $name = "Alex";
+my $count_name = 0;
+
+while($count_name < 10) {
+    print $name. " - " . $count_name . "\n";
+    $count_name++;
+}
