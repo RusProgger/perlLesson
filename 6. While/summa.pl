@@ -12,3 +12,5 @@ while($num <= 20) {
 }
 
 print "Summa 1 to 20 = " . $summa . "\n";
+
+
