@@ -22,7 +22,6 @@ my $star = 1;
 while($star <= 40 ) {
     print "*";
     $star++;
-    
 }
 
 
