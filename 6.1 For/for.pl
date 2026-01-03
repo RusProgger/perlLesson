@@ -6,6 +6,13 @@ use warnings;
 
 # for cycle
 
-for(my $count = 1; $count < 10; $count++) {
-    print "Variable$count = {$count}\n";
+# for(my $count = 1; $count < 10; $count++) {
+#     print "Variable$count = {$count}\n";
+# }
+
+
+# Вывести числа от 1 до 10.
+
+for(my $number = 1; $number <= 10; $number++) {
+    print "Number = $number\n";
 }
