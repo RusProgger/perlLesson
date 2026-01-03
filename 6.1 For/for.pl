@@ -16,3 +16,20 @@ use warnings;
 for(my $number = 1; $number <= 10; $number++) {
     print "Number = $number\n";
 }
+
+# Вывести числа от 10 до 1.
+
+
+
+# if(my $number = 1; $number > 1; $number--) {
+#     printf "$number\n";
+# }
+
+print("\n*********************\n");
+
+my $number = 10;
+
+while($number >= 1) {
+    print "Number min = $number\n";
+    $number--;
+}
