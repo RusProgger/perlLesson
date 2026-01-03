@@ -27,9 +27,13 @@ for(my $number = 1; $number <= 10; $number++) {
 
 print("\n*********************\n");
 
-my $number = 10;
+# my $number = 10;
 
-while($number >= 1) {
+# while($number >= 1) {
+#     print "Number min = $number\n";
+#     $number--;
+# }
+
+for(my $number = 10; $number >= 1; $number--) {
     print "Number min = $number\n";
-    $number--;
 }
