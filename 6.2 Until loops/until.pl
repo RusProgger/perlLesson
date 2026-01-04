@@ -34,6 +34,16 @@ until($number > 10) {
 }
 
 
+# task 3
+
+my $count = 1;
+
+until($count >= 100) {
+    print "Count = $count\n";
+    $count *= 3;
+}
+
+
 
 # for(my $n = 1; $n <= 10; $n++) {
 #     if($n % 2 != 0) {
