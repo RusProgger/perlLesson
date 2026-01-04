@@ -10,7 +10,7 @@ until($number > 10) {
     if($number % 2 == 0) {
         print "Even number = $number\n";
     } 
-    #else {
+    else {
     #     print "Odd number = $number\n";
     # }
 
