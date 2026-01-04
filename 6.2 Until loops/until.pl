@@ -42,6 +42,9 @@ my $count = 3;
 
 until($count >= 100) {
     # print "Count = $count * 3 = $count\n";
+    my $result = $count * 3;
+    print "Count = $count * 3 = $result\n";
+
     
 }
 
