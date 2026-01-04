@@ -36,6 +36,8 @@ until($number > 10) {
 
 # task 3
 
+print "\n\n************** Count ****************\n\n";
+
 my $count = 1;
 
 until($count >= 100) {
