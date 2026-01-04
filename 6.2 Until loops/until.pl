@@ -12,7 +12,7 @@ until($number > 10) {
     } 
     else {
     #     print "Odd number = $number\n";
-    # }
+    }
 
     $number++;
 }
