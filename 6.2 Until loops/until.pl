@@ -38,11 +38,11 @@ until($number > 10) {
 
 print "\n\n************** Count ****************\n\n";
 
-my $count = 1;
+my $count = 3;
 
 until($count >= 100) {
-    print "Count = $count\n";
-    $count *= 3;
+    # print "Count = $count * 3 = $count\n";
+    
 }
 
 
