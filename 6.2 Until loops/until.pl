@@ -16,9 +16,9 @@ until($number > 10) {
 }
 
 
-# Обнуляем переменную number 
-
 print "\n\n************** Odd number ****************\n\n";
+
+# Обнуляем переменную number 
 
 $number = 1;
 
