@@ -11,10 +11,7 @@ until($number > 10) {
         print "Even number = $number\n";
     } 
     
-    else {
-        print "Odd number = $number\n";
-    }
-
     $number++;
 }
 
+print "\n************** Even number **************\n";
