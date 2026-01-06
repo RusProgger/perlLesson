@@ -56,7 +56,7 @@ $count = 1;
 
 until($count > 100) {
     print "$count\n";
-    $count += 10;
+    $count += 9;
 }
 
 # for(my $n = 1; $n <= 10; $n++) {
