@@ -39,16 +39,24 @@ until($number > 10) {
 print "\n\n************** Count ****************\n\n";
 
 my $count = 3;
+my $countMax = 100;
 
-until($count >= 100) {
+until($count >= $countMax) {
     # print "Count = $count * 3 = $count\n";
     my $result = $count * 3;
     print "Count = $count * 3 = $result\n";
 
-    
+    # Обнуляем переменную $count
+    $count = $result;
 }
 
+# Обнуляем переменную 
 
+$count = 1;
+
+until($count > 100) {
+    print "";
+}
 
 # for(my $n = 1; $n <= 10; $n++) {
 #     if($n % 2 != 0) {
