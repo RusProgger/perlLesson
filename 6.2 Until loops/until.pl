@@ -55,7 +55,7 @@ until($count >= $countMax) {
 $count = 1;
 
 until($count > 100) {
-    print "";
+    print "$count\n";
 }
 
 # for(my $n = 1; $n <= 10; $n++) {
