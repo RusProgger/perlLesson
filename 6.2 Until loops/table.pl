@@ -11,9 +11,9 @@ for(my $i = 1; $i <= 10; $i++) {
         # Добавляем условия столбцов
 
         if($j == 3) {
-            print "$i * $j = " . $result . "\n"; 
+            print "\n"; 
         }
-        
+        print "$i * $j = " . $result; 
     }
     print "\n";
 }
