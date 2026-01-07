@@ -25,7 +25,7 @@ for (my $i = 1; $i <= 10; $i += 3) {
             my $col = $i + $k;
             last if $col > 10; # не печатать, если больше 10
             my $result = $col * $j;
-            printf "%2d * %2d = %3d\t", $col, $j, $result;
+            printf("%2d * %2d = %3d\t", $col, $j, $result);
         }
         print "\n";
     }
