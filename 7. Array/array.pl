@@ -13,5 +13,7 @@ print $array[1] . " " .  $arrs[1] . "\n";
 push(@array, "Oleg");
 push(@arrs, 50);
 
-print $array[1] . " " .  $arrs[1] . "\n";
+print "Name: @array\n";
+
+
 
