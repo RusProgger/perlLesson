@@ -14,6 +14,6 @@ push(@array, "Oleg");
 push(@arrs, 50);
 
 print "Name: @array\n";
-
+print "Age: @arrs\n"
 
 
