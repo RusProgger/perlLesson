@@ -11,4 +11,7 @@ print $array[1] . " " .  $arrs[1] . "\n";
 # Дополнения елементов в массив 
 
 push(@array, "Oleg");
+push(@arrs, 50);
+
+print $array[1] . " " .  $arrs[1] . "\n";
 
