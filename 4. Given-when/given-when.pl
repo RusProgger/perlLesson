@@ -13,6 +13,10 @@ given ($count) {
         printf("%d", $count);
     }
 
+    when (60) {
+        printf("%d", $count);
+    }
+
     default {
         printf("Error");
     }
