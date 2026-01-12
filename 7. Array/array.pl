@@ -19,4 +19,4 @@ print "Age: @arrs\n";
 
 # Вывод массива ARR
 
-print "Name: $arr[0]\n" ;
+print "Name: $arr[0]\n";
