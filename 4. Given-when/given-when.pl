@@ -10,7 +10,7 @@ given ($count) {
         print($count);
     }
     when (1000) {
-        printf("%d", $count);
+        print($count);
     }
 
     when (60) {
