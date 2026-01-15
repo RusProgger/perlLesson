@@ -8,5 +8,5 @@ sub cube {
 
 my $result = cube(3);
 
-
+# Вывод информации
 print $result;
