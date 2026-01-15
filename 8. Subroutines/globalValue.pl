@@ -10,5 +10,10 @@ sub val {
     print "Local value " . $value . "\n";
 }
 
+# return val;
+val(); 
 
-val();
+# return value global
+
+print "Global value: " . $value . "\n";
+
