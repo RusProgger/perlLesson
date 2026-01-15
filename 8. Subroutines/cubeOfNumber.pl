@@ -7,11 +7,12 @@ sub cube {
 
     # добивим проверку условий если число меньше 0
 
-    if($cube <= 0) {
-        die "Error!!\n";
-    }
+    # if($cube <= 0) {
+    #     die "Error!!\n";
+    # }
 
-    return $cube ** $cube;
+    $cube <= 0 ? "Error" : return $cube ** $cube;
+
 }
 
 my $result = cube(0);
