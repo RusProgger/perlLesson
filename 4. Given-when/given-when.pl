@@ -14,7 +14,7 @@ given ($count) {
     }
 
     when (60) {
-        printf("%d", $count);
+        print($count);
     }
 
     default {
