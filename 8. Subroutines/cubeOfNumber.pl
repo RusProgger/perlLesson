@@ -3,10 +3,18 @@ use warnings;
 
 sub cube {
     my $cube = $_[0];
+    my $count = 3;
+    my $result = 1;
 
     die "Error!!!\n" if $cube <= 0;
 
-    return $cube ** $cube;
+    while($count > 0) {
+        
+        $result *= $cube;
+        $count--;
+    }
+    
+    return $result;
 
     # return $cube * $cube * $cube;
 
@@ -20,7 +28,7 @@ sub cube {
 
 }
 
-my $result = cube(2);
+my $result = cube(3);
 
 # Вывод информации
 print "Result: " . $result;
