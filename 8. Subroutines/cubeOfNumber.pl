@@ -28,7 +28,7 @@ sub cube {
 
 }
 
-my $result = cube(3);
+my $result = cube(2);
 
 # Вывод информации
 print "Result: " . $result;
