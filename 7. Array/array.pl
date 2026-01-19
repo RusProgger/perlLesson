@@ -22,3 +22,5 @@ print "Age: @arrs\n";
 
 print "Name: $arr[0]\n";
 print "Age: $arr[1]\n";
+
+print "Name: $arr1[0]"; 
