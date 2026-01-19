@@ -6,7 +6,7 @@ use warnings;
 my @array = ("Alex", "Alena", "Lena");
 my @arrs = (10, 15, 30);
 my @arr = ("Alena", 40);
-my @arr1 = ("Lena", 31);
+my @arr_g = ("Lena", 31);
 
 print $array[1] . " " .  $arrs[1] . "\n";
 
@@ -23,4 +23,5 @@ print "Age: @arrs\n";
 print "Name: $arr[0]\n";
 print "Age: $arr[1]\n";
 
-print "Name: $arr1[0]"; 
+print "Name: $arr_g[0]\n"; 
+print "Age: $arr_g[1]"; 
